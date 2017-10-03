@@ -1,0 +1,213 @@
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\moleQule.Face.Quality.dll
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\moleQule.Face.Quality.pdb
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\microsoft.office.interop.word.dll
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\microsoft.office.interop.word.xml
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\ResolveAssemblyReference.cache
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ActaComiteAddForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ActaComiteEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ActaComiteForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ActaComiteMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ActaComiteUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ActaComiteViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.PuntoActaActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AccionCorrectoraActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.InformeCorrectorForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.InformeCorrectorUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AmpliacionActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ConcesionAmpliacionActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.InformeAmpliacionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AuditoriaAddForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AuditoriaEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AuditoriaForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AuditoriaMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AuditoriaUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AuditoriaViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ComunicadoAuditoriaActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.DiscrepanciaActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.InformeDiscrepanciaForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaAddForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaAddForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.DepartamentoForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.DepartamentoMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.DepartamentoUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.DepartamentoViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.DiscrepanciaMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.IncidenciaAddForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.IncidenciaEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.IncidenciaForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.IncidenciaMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.IncidenciaUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.IncidenciaViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.PlanAnualEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.PlanAnualAddForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.PlanAnualForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.PlanAnualMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.PlanAnualUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.PlanAnualViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AreaAddForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AreaEditForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AreaForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AreaMngForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AreaUIForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.AreaViewForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.Properties.Resources.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.SeguimientoAuditoriasActionForm.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.Resources.Labels.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.Resources.Messages.resources
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.dll
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\moleQule.Face.Quality.pdb
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\moleQule.Face.Quality.dll.config
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\office.dll
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\Microsoft.Vbe.Interop.dll
+C:\VS Projects\Hangar\moleQule.Quality\Face\bin\office.xml
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\GenerateResource.read.1.tlog
+C:\VS Projects\Hangar\moleQule.Quality\Face\obj\Debug\GenerateResource.write.1.tlog
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.csprojResolveAssemblyReference.cache
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteAddForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PuntoActaActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AccionCorrectoraActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeCorrectorForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeCorrectorUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AmpliacionActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ConcesionAmpliacionActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeAmpliacionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaAddForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ComunicadoAuditoriaActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DiscrepanciaActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeDiscrepanciaForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaAddForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaAddForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DiscrepanciaMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaAddForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualAddForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaAddForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaEditForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaMngForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaUIForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaViewForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Properties.Resources.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.SeguimientoAuditoriasActionForm.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Resources.Labels.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Resources.Messages.resources
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.csproj.GenerateResource.Cache
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.pdb
+C:\VS Projects Git\moleQule.Quality\code\Face\bin\moleQule.Face.Quality.dll.config
+C:\VS Projects Git\moleQule.Quality\code\Face\bin\moleQule.Face.Quality.dll
+C:\VS Projects Git\moleQule.Quality\code\Face\bin\moleQule.Face.Quality.pdb
+C:\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.dll
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\bin\moleQule.Face.Quality.dll.config
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\bin\moleQule.Face.Quality.dll
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\bin\moleQule.Face.Quality.pdb
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.csprojResolveAssemblyReference.cache
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteAddForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ActaComiteViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PuntoActaActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AccionCorrectoraActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeCorrectorForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeCorrectorUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AmpliacionActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ConcesionAmpliacionActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeAmpliacionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaAddForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AuditoriaViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ComunicadoAuditoriaActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DiscrepanciaActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.InformeDiscrepanciaForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaAddForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.ClaseAuditoriaViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaAddForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.TipoAuditoriaViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DepartamentoViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.DiscrepanciaMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaAddForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.IncidenciaViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualAddForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.PlanAnualViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Plan_TipoAuditoriaViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaAddForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaEditForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaMngForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaUIForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.AreaViewForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Properties.Resources.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.SeguimientoAuditoriasActionForm.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Resources.Labels.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.Resources.Messages.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.csproj.GenerateResource.Cache
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.dll
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Face\obj\Debug\moleQule.Face.Quality.pdb

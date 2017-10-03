@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70FB80D9-6074-4F7E-B005-627319244DEC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>moleQule.Library.Quality</RootNamespace>
+    <AssemblyName>moleQule.Library.Quality</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Csla">
+      <HintPath>..\..\..\External Libs\Csla.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\..\Hangar\code\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="moleQule.Library">
+      <HintPath>..\..\..\moleQule\moleQule.Library\bin\moleQule.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Common">
+      <HintPath>..\..\..\moleQule\moleQule.Common\code\Library\bin\moleQule.Library.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Hipatia">
+      <HintPath>..\..\..\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Instruction">
+      <HintPath>..\..\..\moleQule.Instruction\code\Library\bin\moleQule.Library.Instruction.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Invoice">
+      <HintPath>..\..\..\moleQule.Invoice\code\Library\bin\moleQule.Library.Invoice.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Store">
+      <HintPath>..\..\..\moleQule.Store\code\Library\bin\moleQule.Library.Store.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\Hangar\code\packages\Npgsql.2.0.12.1\lib\net40\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\Hangar\code\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\..\..\Hangar\code\packages\Npgsql.2.0.12.1\lib\net40\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="policy.2.0.Npgsql">
+      <HintPath>..\..\..\Hangar\code\packages\Npgsql.2.0.12.1\lib\net40\policy.2.0.Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BO\ActaComite\ActaComite.cs" />
+    <Compile Include="BO\ActaComite\ActaComiteInfo.cs" />
+    <Compile Include="BO\ActaComite\ActaComiteList.cs" />
+    <Compile Include="BO\ActaComite\ActaComiteMap.cs" />
+    <Compile Include="BO\ActaComite\PuntoActa.cs" />
+    <Compile Include="BO\ActaComite\PuntoActaInfo.cs" />
+    <Compile Include="BO\ActaComite\PuntoActaList.cs" />
+    <Compile Include="BO\ActaComite\PuntoActaMap.cs" />
+    <Compile Include="BO\ActaComite\PuntosActas.cs" />
+    <Compile Include="BO\Area\Area.cs" />
+    <Compile Include="BO\Area\AreaInfo.cs" />
+    <Compile Include="BO\Area\AreaList.cs" />
+    <Compile Include="BO\Area\AreaMap.cs" />
+    <Compile Include="BO\Auditoria\Auditoria.cs" />
+    <Compile Include="BO\Auditoria\AuditoriaInfo.cs" />
+    <Compile Include="BO\Auditoria\AuditoriaList.cs" />
+    <Compile Include="BO\Auditoria\AuditoriaMap.cs" />
+    <Compile Include="BO\Auditoria\AuditoriaPrint.cs" />
+    <Compile Include="BO\Auditoria\AuditoriaReportMng.cs" />
+    <Compile Include="BO\Auditoria\Auditorias.cs" />
+    <Compile Include="BO\Auditoria\Auditoria_Area\Auditorias_Areas.cs" />
+    <Compile Include="BO\Auditoria\Auditoria_Area\Auditoria_Area.cs" />
+    <Compile Include="BO\Auditoria\Auditoria_Area\Auditoria_AreaInfo.cs" />
+    <Compile Include="BO\Auditoria\Auditoria_Area\Auditoria_AreaList.cs" />
+    <Compile Include="BO\Auditoria\Auditoria_Area\Auditoria_AreaMap.cs" />
+    <Compile Include="BO\Auditoria\HistoriaAuditoria\HistoriaAuditoria.cs" />
+    <Compile Include="BO\Auditoria\HistoriaAuditoria\HistoriaAuditoriaInfo.cs" />
+    <Compile Include="BO\Auditoria\HistoriaAuditoria\HistoriaAuditoriaList.cs" />
+    <Compile Include="BO\Auditoria\HistoriaAuditoria\HistoriaAuditoriaMap.cs" />
+    <Compile Include="BO\Auditoria\HistoriaAuditoria\HistoriaAuditorias.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\Discrepancia\Discrepancia.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\Discrepancia\DiscrepanciaInfo.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\Discrepancia\DiscrepanciaList.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\Discrepancia\DiscrepanciaMap.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\Discrepancia\DiscrepanciaPrint.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\Discrepancia\Discrepancias.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\Ampliacion\Ampliacion.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\Ampliacion\Ampliaciones.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\Ampliacion\AmpliacionInfo.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\Ampliacion\AmpliacionList.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\Ampliacion\AmpliacionMap.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\InformeAmpliacion.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\InformeAmpliacionInfo.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\InformeAmpliacionList.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\InformeAmpliacionMap.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeAmpliacion\InformesAmpliaciones.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\AccionCorrectora\AccionCorrectora.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\AccionCorrectora\AccionCorrectoraInfo.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\AccionCorrectora\AccionCorrectoraList.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\AccionCorrectora\AccionCorrectoraMap.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\AccionCorrectora\AccionesCorrectoras.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\InformeCorrector.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\InformeCorrectorInfo.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\InformeCorrectorList.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\InformeCorrectorMap.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\InformeCorrectorPrint.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeCorrector\InformesCorrectores.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeDiscrepancia.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeDiscrepanciaInfo.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeDiscrepanciaList.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformeDiscrepanciaMap.cs" />
+    <Compile Include="BO\Auditoria\InformeDiscrepancia\InformesDiscrepancias.cs" />
+    <Compile Include="BO\Auditoria\NotificacionInterna\NotificacionesInternas.cs" />
+    <Compile Include="BO\Auditoria\NotificacionInterna\NotificacionInterna.cs" />
+    <Compile Include="BO\Auditoria\NotificacionInterna\NotificacionInternaInfo.cs" />
+    <Compile Include="BO\Auditoria\NotificacionInterna\NotificacionInternaList.cs" />
+    <Compile Include="BO\Auditoria\NotificacionInterna\NotificacionInternaMap.cs" />
+    <Compile Include="BO\Auditoria\NotificacionInterna\NotificacionInternaPrint.cs" />
+    <Compile Include="BO\ClaseAuditoria\ClaseAuditoria.cs" />
+    <Compile Include="BO\ClaseAuditoria\ClaseAuditoriaInfo.cs" />
+    <Compile Include="BO\ClaseAuditoria\ClaseAuditoriaList.cs" />
+    <Compile Include="BO\ClaseAuditoria\ClaseAuditoriaMap.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Criterio\Criterio.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Criterio\CriterioInfo.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Criterio\CriterioList.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Criterio\CriterioMap.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Criterio\Criterios.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\Cuestion.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionAuditoria\CuestionAuditoria.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionAuditoria\CuestionAuditoriaInfo.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionAuditoria\CuestionAuditoriaList.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionAuditoria\CuestionAuditoriaMap.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionAuditoria\CuestionAuditoriaPrint.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionAuditoria\CuestionesAuditoria.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\Cuestiones.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionInfo.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionList.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\Cuestion\CuestionMap.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\TipoAuditoria.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\TipoAuditoriaInfo.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\TipoAuditoriaList.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\TipoAuditoriaMap.cs" />
+    <Compile Include="BO\ClaseAuditoria\TipoAuditoria\TipoAuditorias.cs" />
+    <Compile Include="BO\Departamento\Departamento.cs" />
+    <Compile Include="BO\Departamento\DepartamentoInfo.cs" />
+    <Compile Include="BO\Departamento\DepartamentoList.cs" />
+    <Compile Include="BO\Departamento\DepartamentoMap.cs" />
+    <Compile Include="BO\Incidencia\Incidencia.cs" />
+    <Compile Include="BO\Incidencia\IncidenciaInfo.cs" />
+    <Compile Include="BO\Incidencia\IncidenciaList.cs" />
+    <Compile Include="BO\Incidencia\IncidenciaMap.cs" />
+    <Compile Include="BO\Incidencia\IncidenciaPrint.cs" />
+    <Compile Include="BO\Incidencia\Incidencias.cs" />
+    <Compile Include="BO\PlanAnual\PlanAnual.cs" />
+    <Compile Include="BO\PlanAnual\PlanAnualInfo.cs" />
+    <Compile Include="BO\PlanAnual\PlanAnualList.cs" />
+    <Compile Include="BO\PlanAnual\PlanAnualMap.cs" />
+    <Compile Include="BO\PlanAnual\Plan_Tipo\Planes_Tipos.cs" />
+    <Compile Include="BO\PlanAnual\Plan_Tipo\Plan_Tipo.cs" />
+    <Compile Include="BO\PlanAnual\Plan_Tipo\Plan_TipoInfo.cs" />
+    <Compile Include="BO\PlanAnual\Plan_Tipo\Plan_TipoList.cs" />
+    <Compile Include="BO\PlanAnual\Plan_Tipo\Plan_TipoMap.cs" />
+    <Compile Include="ModuleController.cs" />
+    <Compile Include="ModulePrincipal.cs" />
+    <Compile Include="Modules\Hipatia\AgenteSelector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\AccionCorrectoraListSubRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccionCorrectoraListSubRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ActaReunionComiteCalidadRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActaReunionComiteCalidadRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\InformeAuditoriaRpt.cs">
+      <DependentUpon>InformeAuditoriaRpt.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\NotificacionInternaRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotificacionInternaRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ControlAuditoriasRealizadasRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlAuditoriasRealizadasRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ControlNoConformidadRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlNoConformidadRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CriteriosAuditoriaListSubRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CriteriosAuditoriaListSubRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CuadroControlAuditoriasRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuadroControlAuditoriasRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CuestionesAuditoriaListSubRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CuestionesAuditoriaListSubRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DiscrepanciaListSubRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiscrepanciaListSubRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\InformeAccionesCorrectorasRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InformeAccionesCorrectorasRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\InformeAuditoriaOldRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InformeAuditoriaOldRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\InformeDiscrepanciaRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InformeDiscrepanciaRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\NoConformidadListSubRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NoConformidadListSubRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PlanAnualAuditorias.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PlanAnualAuditorias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PuntosActaComiteListSubRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PuntosActaComiteListSubRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RegistroEntregaDocumentacionAlumnosRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistroEntregaDocumentacionAlumnosRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RegistroExpedienteAlumnosRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistroExpedienteAlumnosRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RegistroExpedienteProfesoresRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistroExpedienteProfesoresRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RegistroIncidenciasRpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegistroIncidenciasRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources\Defaults.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Defaults.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ElementosSeguros.Designer.cs">
+      <DependentUpon>ElementosSeguros.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Enums.Designer.cs">
+      <DependentUpon>Enums.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Historial.Designer.cs">
+      <DependentUpon>Historial.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Structs\Structs.cs" />
+    <Compile Include="Tools\AuditoriaController.cs" />
+    <Compile Include="Tools\HComboBoxSourceList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\AccionCorrectoraListSubRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AccionCorrectoraListSubRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ActaReunionComiteCalidadRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ActaReunionComiteCalidadRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\NotificacionInternaRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NotificacionInternaRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ControlAuditoriasRealizadasRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ControlAuditoriasRealizadasRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ControlNoConformidadRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ControlNoConformidadRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CriteriosAuditoriaListSubRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CriteriosAuditoriaListSubRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CuadroControlAuditoriasRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CuadroControlAuditoriasRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CuestionesAuditoriaListSubRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CuestionesAuditoriaListSubRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DiscrepanciaListSubRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DiscrepanciaListSubRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InformeAccionesCorrectorasRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InformeAccionesCorrectorasRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InformeAuditoriaOldRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InformeAuditoriaOldRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InformeDiscrepanciaRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InformeDiscrepanciaRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\NoConformidadListSubRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NoConformidadListSubRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PlanAnualAuditorias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PlanAnualAuditorias.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PuntosActaComiteListSubRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PuntosActaComiteListSubRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RegistroEntregaDocumentacionAlumnosRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RegistroEntregaDocumentacionAlumnosRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RegistroExpedienteAlumnosRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RegistroExpedienteAlumnosRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RegistroExpedienteProfesoresRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RegistroExpedienteProfesoresRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RegistroIncidenciasRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RegistroIncidenciasRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Defaults.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Defaults.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ElementosSeguros.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ElementosSeguros.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Enums.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Enums.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Historial.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Historial.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SQL\09_Quality_Create_Common_Tables.sql" />
+    <None Include="SQL\12_Quality_Create_Detail_Tables.sql" />
+    <None Include="SQL\13_Quality_Update.sql" />
+    <None Include="SQL\13_Quality_Update_02.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\InformeAuditoriaRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InformeAuditoriaRpt.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BO\Auditoria\Area\" />
+    <Folder Include="SQL\Install\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\Update\Update 5.0.0.0 .sql" />
+    <Content Include="SQL\Update\Update 4.0.0.0 .sql" />
+    <Content Include="SQL\Update\Update 4.2.0.0 .sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy ".\*" "..\..\..\..\moleQule\packages\$(ProjectName)\$(PlatformName)\$(ConfigurationName)"  /Y /R /I /E</PostBuildEvent>
+  </PropertyGroup>
+</Project>

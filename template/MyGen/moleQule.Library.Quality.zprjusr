@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="moleQule.Library.Quality">
+  <modules>
+    <module name="AccionCorrectora" />
+    <module name="ActaComite" />
+    <module name="Ampliacion" />
+    <module name="Area" />
+    <module name="Auditoria" />
+    <module name="Auditoria_Area" />
+    <module name="ClaseAuditoria" />
+    <module name="Criterio" />
+    <module name="Cuestion" />
+    <module name="CuestionAuditoria" />
+    <module name="Departamento" />
+    <module name="Discrepancia" />
+    <module name="HistoriaAuditoria" />
+    <module name="Incidencia" />
+    <module name="InformeAmpliacion" />
+    <module name="InformeCorrector" />
+    <module name="InformeDiscrepancia" />
+    <module name="NotificacionInterna" />
+    <module name="Plan_Tipo" />
+    <module name="PlanAnual" />
+    <module name="PuntoActa" />
+    <module name="TipoAuditoria" />
+  </modules>
+</project>

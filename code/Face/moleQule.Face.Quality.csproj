@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC6C9041-FFEA-4903-BE59-C89DCF90ECE1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>moleQule.Face.Quality</RootNamespace>
+    <AssemblyName>moleQule.Face.Quality</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Csla">
+      <HintPath>..\..\..\External Libs\Csla.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Infralution.Localization">
+      <HintPath>..\..\..\External Libs\Infralution.Localization\bin\Infralution.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="moleQule.Face">
+      <HintPath>..\..\..\moleQule\moleQule.Face\bin\moleQule.Face.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Common">
+      <HintPath>..\..\..\moleQule\moleQule.Common\code\Face\bin\moleQule.Face.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Hipatia">
+      <HintPath>..\..\..\Hipatia\Code\Face\bin\moleQule.Face.Hipatia.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Instruction">
+      <HintPath>..\..\..\moleQule.Instruction\code\Face\bin\moleQule.Face.Instruction.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Invoice">
+      <HintPath>..\..\..\moleQule.Invoice\code\Face\bin\moleQule.Face.Invoice.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Store">
+      <HintPath>..\..\..\moleQule.Store\code\Face\bin\moleQule.Face.Store.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library">
+      <HintPath>..\..\..\moleQule\moleQule.Library\bin\moleQule.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Application">
+      <HintPath>..\..\..\Hangar\code\moleQule.Application\Library\bin\moleQule.Library.Application.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Common">
+      <HintPath>..\..\..\moleQule\moleQule.Common\code\Library\bin\moleQule.Library.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Hipatia">
+      <HintPath>..\..\..\Hipatia\Code\Library\bin\moleQule.Library.Hipatia.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Instruction">
+      <HintPath>..\..\..\moleQule.Instruction\code\Library\bin\moleQule.Library.Instruction.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Invoice">
+      <HintPath>..\..\..\moleQule.Invoice\code\Library\bin\moleQule.Library.Invoice.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Quality">
+      <HintPath>..\Library\bin\moleQule.Library.Quality.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Store">
+      <HintPath>..\..\..\moleQule.Store\code\Library\bin\moleQule.Library.Store.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\moleQule\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMng.cs" />
+    <Compile Include="Forms\Actas Comite\ActaComiteMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteMngForm.Designer.cs">
+      <DependentUpon>ActaComiteMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorAddForm.Designer.cs">
+      <DependentUpon>InformeCorrectorAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorEditForm.Designer.cs">
+      <DependentUpon>InformeCorrectorEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorForm.Designer.cs">
+      <DependentUpon>InformeCorrectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorUIForm.Designer.cs">
+      <DependentUpon>InformeCorrectorUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorViewForm.Designer.cs">
+      <DependentUpon>InformeCorrectorViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\ConcesionAmpliacionActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\ConcesionAmpliacionActionForm.Designer.cs">
+      <DependentUpon>ConcesionAmpliacionActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionAddForm.Designer.cs">
+      <DependentUpon>InformeAmpliacionAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionEditForm.Designer.cs">
+      <DependentUpon>InformeAmpliacionEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionForm.Designer.cs">
+      <DependentUpon>InformeAmpliacionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionUIForm.Designer.cs">
+      <DependentUpon>InformeAmpliacionUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionViewForm.Designer.cs">
+      <DependentUpon>InformeAmpliacionViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaMngForm.Designer.cs">
+      <DependentUpon>AuditoriaMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaSelectForm.Designer.cs">
+      <DependentUpon>AuditoriaSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaAddForm.Designer.cs">
+      <DependentUpon>InformeDiscrepanciaAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaEditForm.Designer.cs">
+      <DependentUpon>InformeDiscrepanciaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaForm.Designer.cs">
+      <DependentUpon>InformeDiscrepanciaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaUIForm.Designer.cs">
+      <DependentUpon>InformeDiscrepanciaUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaViewForm.Designer.cs">
+      <DependentUpon>InformeDiscrepanciaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaMngForm.Designer.cs">
+      <DependentUpon>ClaseAuditoriaMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaAddForm.Designer.cs">
+      <DependentUpon>TipoAuditoriaAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaEditForm.Designer.cs">
+      <DependentUpon>TipoAuditoriaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaForm.Designer.cs">
+      <DependentUpon>TipoAuditoriaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\TipoAuditoriaViewForm.Designer.cs">
+      <DependentUpon>TipoAuditoriaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoAddForm.Designer.cs">
+      <DependentUpon>DepartamentoAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoEditForm.Designer.cs">
+      <DependentUpon>DepartamentoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoForm.Designer.cs">
+      <DependentUpon>DepartamentoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoMngForm.Designer.cs">
+      <DependentUpon>DepartamentoMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoUIForm.Designer.cs">
+      <DependentUpon>DepartamentoUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Departamentos\DepartamentoViewForm.Designer.cs">
+      <DependentUpon>DepartamentoViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Discrepacias\DiscrepanciaMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Discrepacias\DiscrepanciaMngForm.Designer.cs">
+      <DependentUpon>DiscrepanciaMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Discrepacias\DiscrepanciaSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Discrepacias\DiscrepanciaSelectForm.Designer.cs">
+      <DependentUpon>DiscrepanciaSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaMngForm.Designer.cs">
+      <DependentUpon>IncidenciaMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualMngForm.Designer.cs">
+      <DependentUpon>PlanAnualMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualSelectForm.Designer.cs">
+      <DependentUpon>PlanAnualSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualAddForm.Designer.cs">
+      <DependentUpon>PlanAnualAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualEditForm.Designer.cs">
+      <DependentUpon>PlanAnualEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualForm.Designer.cs">
+      <DependentUpon>PlanAnualForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualUIForm.Designer.cs">
+      <DependentUpon>PlanAnualUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\PlanAnualViewForm.Designer.cs">
+      <DependentUpon>PlanAnualViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\Plan_TipoAuditoriaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\Plan_TipoAuditoriaEditForm.Designer.cs">
+      <DependentUpon>Plan_TipoAuditoriaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\Plan_TipoAuditoriaActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\Plan_TipoAuditoriaActionForm.Designer.cs">
+      <DependentUpon>Plan_TipoAuditoriaActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\Plan_TipoAuditoriaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlanAnual\Plan_TipoAuditoriaViewForm.Designer.cs">
+      <DependentUpon>Plan_TipoAuditoriaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaMngForm.Designer.cs">
+      <DependentUpon>AreaMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Actas Comite\ActaComiteAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteAddForm.Designer.cs">
+      <DependentUpon>ActaComiteAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteEditForm.Designer.cs">
+      <DependentUpon>ActaComiteEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteForm.Designer.cs">
+      <DependentUpon>ActaComiteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteUIForm.Designer.cs">
+      <DependentUpon>ActaComiteUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\ActaComiteViewForm.Designer.cs">
+      <DependentUpon>ActaComiteViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\PuntoActaActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Actas Comite\PuntoActaActionForm.Designer.cs">
+      <DependentUpon>PuntoActaActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\AccionCorrectoraActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Acciones Correctoras\AccionCorrectoraActionForm.Designer.cs">
+      <DependentUpon>AccionCorrectoraActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\AmpliacionActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Ampliaciones\AmpliacionActionForm.Designer.cs">
+      <DependentUpon>AmpliacionActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaAddForm.Designer.cs">
+      <DependentUpon>AuditoriaAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaEditForm.Designer.cs">
+      <DependentUpon>AuditoriaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaForm.Designer.cs">
+      <DependentUpon>AuditoriaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaUIForm.Designer.cs">
+      <DependentUpon>AuditoriaUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\AuditoriaViewForm.Designer.cs">
+      <DependentUpon>AuditoriaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\ComunicadoAuditoriaActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\ComunicadoAuditoriaActionForm.Designer.cs">
+      <DependentUpon>ComunicadoAuditoriaActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\DiscrepanciaActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auditorias\Discrepancias\DiscrepanciaActionForm.Designer.cs">
+      <DependentUpon>DiscrepanciaActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaAddForm.Designer.cs">
+      <DependentUpon>ClaseAuditoriaAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaEditForm.Designer.cs">
+      <DependentUpon>ClaseAuditoriaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaForm.Designer.cs">
+      <DependentUpon>ClaseAuditoriaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaUIForm.Designer.cs">
+      <DependentUpon>ClaseAuditoriaUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clases de Auditorías\ClaseAuditoriaViewForm.Designer.cs">
+      <DependentUpon>ClaseAuditoriaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaAddForm.Designer.cs">
+      <DependentUpon>IncidenciaAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaEditForm.Designer.cs">
+      <DependentUpon>IncidenciaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaForm.Designer.cs">
+      <DependentUpon>IncidenciaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaSelectForm.Designer.cs">
+      <DependentUpon>IncidenciaSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaUIForm.Designer.cs">
+      <DependentUpon>IncidenciaUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Incidencia\IncidenciaViewForm.Designer.cs">
+      <DependentUpon>IncidenciaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaAddForm.Designer.cs">
+      <DependentUpon>AreaAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaEditForm.Designer.cs">
+      <DependentUpon>AreaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaForm.Designer.cs">
+      <DependentUpon>AreaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaUIForm.Designer.cs">
+      <DependentUpon>AreaUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Áreas\AreaViewForm.Designer.cs">
+      <DependentUpon>AreaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SeguimientoAuditoriasActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\SeguimientoAuditoriasActionForm.Designer.cs">
+      <DependentUpon>SeguimientoAuditoriasActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Labels.Designer.cs">
+      <DependentUpon>Labels.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs">
+      <DependentUpon>Messages.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Tools\AuditoriaFormController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Actas Comite\ActaComiteAddForm.resx">
+      <DependentUpon>ActaComiteAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Actas Comite\ActaComiteEditForm.resx">
+      <DependentUpon>ActaComiteEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Actas Comite\ActaComiteForm.resx">
+      <DependentUpon>ActaComiteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Actas Comite\ActaComiteMngForm.resx">
+      <DependentUpon>ActaComiteMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Actas Comite\ActaComiteUIForm.resx">
+      <DependentUpon>ActaComiteUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Actas Comite\ActaComiteViewForm.resx">
+      <DependentUpon>ActaComiteViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Actas Comite\PuntoActaActionForm.resx">
+      <DependentUpon>PuntoActaActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Acciones Correctoras\AccionCorrectoraActionForm.resx">
+      <DependentUpon>AccionCorrectoraActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InformeCorrectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Acciones Correctoras\InformeCorrectorUIForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InformeCorrectorUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Ampliaciones\AmpliacionActionForm.resx">
+      <DependentUpon>AmpliacionActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Ampliaciones\ConcesionAmpliacionActionForm.resx">
+      <DependentUpon>ConcesionAmpliacionActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Ampliaciones\InformeAmpliacionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InformeAmpliacionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\AuditoriaAddForm.resx">
+      <DependentUpon>AuditoriaAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\AuditoriaEditForm.resx">
+      <DependentUpon>AuditoriaEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\AuditoriaForm.resx">
+      <DependentUpon>AuditoriaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\AuditoriaMngForm.resx">
+      <DependentUpon>AuditoriaMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\AuditoriaUIForm.resx">
+      <DependentUpon>AuditoriaUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\AuditoriaViewForm.resx">
+      <DependentUpon>AuditoriaViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\ComunicadoAuditoriaActionForm.resx">
+      <DependentUpon>ComunicadoAuditoriaActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Discrepancias\DiscrepanciaActionForm.resx">
+      <DependentUpon>DiscrepanciaActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Auditorias\Discrepancias\InformeDiscrepanciaForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InformeDiscrepanciaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\ClaseAuditoriaAddForm.resx">
+      <DependentUpon>ClaseAuditoriaAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\ClaseAuditoriaEditForm.resx">
+      <DependentUpon>ClaseAuditoriaEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\ClaseAuditoriaForm.resx">
+      <DependentUpon>ClaseAuditoriaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\ClaseAuditoriaMngForm.resx">
+      <DependentUpon>ClaseAuditoriaMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\ClaseAuditoriaUIForm.resx">
+      <DependentUpon>ClaseAuditoriaUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\ClaseAuditoriaViewForm.resx">
+      <DependentUpon>ClaseAuditoriaViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\TipoAuditoriaAddForm.resx">
+      <DependentUpon>TipoAuditoriaAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\TipoAuditoriaEditForm.resx">
+      <DependentUpon>TipoAuditoriaEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\TipoAuditoriaForm.resx">
+      <DependentUpon>TipoAuditoriaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clases de Auditorías\TipoAuditoriaViewForm.resx">
+      <DependentUpon>TipoAuditoriaViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Departamentos\DepartamentoForm.resx">
+      <DependentUpon>DepartamentoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Departamentos\DepartamentoMngForm.resx">
+      <DependentUpon>DepartamentoMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Departamentos\DepartamentoUIForm.resx">
+      <DependentUpon>DepartamentoUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Departamentos\DepartamentoViewForm.resx">
+      <DependentUpon>DepartamentoViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Discrepacias\DiscrepanciaMngForm.resx">
+      <DependentUpon>DiscrepanciaMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Incidencia\IncidenciaAddForm.resx">
+      <DependentUpon>IncidenciaAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Incidencia\IncidenciaEditForm.resx">
+      <DependentUpon>IncidenciaEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Incidencia\IncidenciaForm.resx">
+      <DependentUpon>IncidenciaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Incidencia\IncidenciaMngForm.resx">
+      <DependentUpon>IncidenciaMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Incidencia\IncidenciaUIForm.resx">
+      <DependentUpon>IncidenciaUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Incidencia\IncidenciaViewForm.resx">
+      <DependentUpon>IncidenciaViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\PlanAnualEditForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlanAnualEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\PlanAnualAddForm.resx">
+      <DependentUpon>PlanAnualAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\PlanAnualForm.resx">
+      <DependentUpon>PlanAnualForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\PlanAnualMngForm.resx">
+      <DependentUpon>PlanAnualMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\PlanAnualUIForm.resx">
+      <DependentUpon>PlanAnualUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\PlanAnualViewForm.resx">
+      <DependentUpon>PlanAnualViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\Plan_TipoAuditoriaEditForm.resx">
+      <DependentUpon>Plan_TipoAuditoriaEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\Plan_TipoAuditoriaActionForm.resx">
+      <DependentUpon>Plan_TipoAuditoriaActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlanAnual\Plan_TipoAuditoriaViewForm.resx">
+      <DependentUpon>Plan_TipoAuditoriaViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Áreas\AreaAddForm.resx">
+      <DependentUpon>AreaAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Áreas\AreaEditForm.resx">
+      <DependentUpon>AreaEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Áreas\AreaForm.resx">
+      <DependentUpon>AreaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Áreas\AreaMngForm.resx">
+      <DependentUpon>AreaMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Áreas\AreaUIForm.resx">
+      <DependentUpon>AreaUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Áreas\AreaViewForm.resx">
+      <DependentUpon>AreaViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SeguimientoAuditoriasActionForm.resx">
+      <DependentUpon>SeguimientoAuditoriasActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Labels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.ActaComiteList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.AreaList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.AuditoriaList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.ClaseAuditoriaList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.DepartamentoList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.DiscrepanciaList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.IncidenciaList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.PlanAnualList.datasource" />
+    <None Include="Resources\add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\molApp.Library.Modules.Quality.Area.datasource" />
+    <None Include="Properties\DataSources\molApp.Library.Modules.Quality.Auditoria_Area.datasource" />
+    <None Include="Resources\delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\molApp.Library.Modules.Quality.HistoriaAuditoria.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.Discrepancias.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.HComboBoxSourceList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Quality.InformeDiscrepancia.datasource" />
+    <None Include="Recursos\notify.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\aprobar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\denegar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\acta.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos\seleccionar_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Auxiliares\" />
+    <Folder Include="Dialogs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

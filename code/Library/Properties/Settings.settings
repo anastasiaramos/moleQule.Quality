@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="moleQule.Library.Quality.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_DISCREPANCIAS_N1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_DISCREPANCIAS_N1</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_DISCREPANCIAS_N2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_DISCREPANCIAS_N2</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_DISCREPANCIAS_N3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_DISCREPANCIAS_N3</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_GENERACION_INFORME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_GENERACION_INFORME</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_NOTIFICACION_DISCREPANCIAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_NOTIFICACION_DISCREPANCIAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_NOTIFICACION_FIN_AUDITORIA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_NOTIFICACION_FIN_AUDITORIA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_RESPUESTA_AMPLIACION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_RESPUESTA_AMPLIACION</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_MAXIMO_AMPLIACION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_MAXIMO_AMPLIACION</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_AVISO_DISCREPANCIAS_ABIERTAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AVISO_DISCREPANCIAS_ABIERTAS</Value>
+    </Setting>
+    <Setting Name="DB_VERSION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5.0.0.0</Value>
+    </Setting>
+    <Setting Name="DB_VERSION_VARIABLE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QUALITY_DB_VERSION</Value>
+    </Setting>
+    <Setting Name="NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QUALITY</Value>
+    </Setting>
+    <Setting Name="MODULE_VERSION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5.0.0.0</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_AUDITORIAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_AUDITORIAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_PLAZO_AUDITORIAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_PLAZO_AUDITORIAS</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
