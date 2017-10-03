@@ -55,3 +55,25 @@ C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Library\obj\D
 C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.csproj.GenerateResource.Cache
 C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.dll
 C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.pdb
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\moleQule.Library.Quality.dll.config
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\moleQule.Library.Quality.dll
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\moleQule.Library.Quality.pdb
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\Iesi.Collections.dll
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\Mono.Security.dll
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\NHibernate.dll
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\Npgsql.dll
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\policy.2.0.Npgsql.dll
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\Iesi.Collections.xml
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\NHibernate.xml
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\Npgsql.pdb
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\Npgsql.xml
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\bin\policy.2.0.Npgsql.config
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.csprojResolveAssemblyReference.cache
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.Resources.Defaults.resources
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.Resources.ElementosSeguros.resources
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.Resources.Enums.resources
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.Resources.Historial.resources
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.Resources.Messages.resources
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.csproj.GenerateResource.Cache
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.dll
+C:\Users\Anastasia\Documents\Git Projects\moleQule.Quality\code\Library\obj\Debug\moleQule.Library.Quality.pdb
